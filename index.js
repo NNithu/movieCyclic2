@@ -29,7 +29,7 @@ app.use((req, res, next) => {
     next();
 })
 
-app.use('/', Routes);
+app.use('/api', Routes);
 
 // const USERNAME = process.env.DB_USERNAME;
 // const PASSWORD = process.env.DB_PASSWORD;
